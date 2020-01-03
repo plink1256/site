@@ -1,0 +1,18 @@
+div.scroller{
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+
+  scroll-snap-type: y mandatory;
+
+
+  div.zone {
+
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+
+  }
+}
